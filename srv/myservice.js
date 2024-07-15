@@ -1,0 +1,12 @@
+module.exports = async (srv) => {
+ 
+    //implementation code
+    srv.on('greetings', (req,res)=>{
+        return "good morning ! " + req.data.name ;
+    });
+    srv.on('multiply', (req,res)=>{
+        let tot = req.data(a * b);
+        return "Total = " + tot;
+    });
+ 
+}

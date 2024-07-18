@@ -1,0 +1,14 @@
+"cds": {
+    "requires": {
+      "db": "hana",
+      "auth": {
+        "kind": "mocked",
+        "users": {
+          "anubhav": { "roles": [ "Viewer" ], "attr": {
+            "BankName":"My Bank of London"
+          } },
+          "ananya":   { "roles": [ "Admin" ] }
+        }
+      }
+    }
+  }
